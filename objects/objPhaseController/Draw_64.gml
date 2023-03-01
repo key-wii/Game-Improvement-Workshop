@@ -18,13 +18,13 @@ switch(global.phase) {
 	case global.enemiesMove : draw_text(xx, yy, "Moving Targets"); break;
 	case global.screenshake	: draw_text(xx, yy, "SCREENSHAKE"); break;
 	case global.impactEffect: draw_text(xx, yy, "IMPACT Effect"); break;
-	case global.muzzleFlash	: draw_text(xx, yy, "MUZZLE FLASH"); break;
 	case global.bullBigger	: draw_text(xx, yy, "BIGGER BULLETS"); break;
+	case global.muzzleFlash	: draw_text(xx, yy, "MUZZLE FLASH"); break;
 	case global.bullFaster	: draw_text(xx, yy, "Faster Bullets"); break;
-	case global.fireRate	: draw_text(xx, yy, "Faster Rate of Fire"); break;
+	case global.enemiesAtk	: draw_text(xx, yy, "Enemies Fight Back"); break;
 	case global.moreEnemies	: draw_text(xx, yy, "More Enemies!"); break;
 	case global.animHit		: draw_text(xx, yy, "HIT ANIMATION"); break;
-	case global.knockback	: draw_text(xx, yy, "ENEMY KNOCKBACK"); break;
+	case global.knockback	: draw_text(xx, yy, "HIT KNOCKBACK"); break;
 	case global.kickback	: draw_text(xx, yy, "GUN KICKBACK"); break;
 	case global.permanence	: draw_text(xx, yy, "PERMANENCE"); break;
 	case global.hitstop		: draw_text(xx, yy, "HITSTOP"); break;

@@ -44,6 +44,7 @@ if (canShoot > 0) canShoot--;
 if ((keyboard_check(vk_space) || keyboard_check(ord("Z"))) &&
 	canShoot == 0) {
 		instance_change(objPlayerShoot, true);
-		if (global.phase >= global.animMovement) canShoot = 50;
+		//if (global.phase >= global.fireRate) canShoot = 10;
+		if (global.phase >= global.animMovement) canShoot = 10;
 		else canShoot = 50;
 }

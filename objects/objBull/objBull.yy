@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprBullet2",
-    "path": "sprites/sprBullet2/sprBullet2.yy",
+    "name": "sprBullet1",
+    "path": "sprites/sprBullet1/sprBullet1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

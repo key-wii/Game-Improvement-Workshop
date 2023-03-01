@@ -1,0 +1,1 @@
+if (global.phase < global.moreEnemies) instance_destroy();

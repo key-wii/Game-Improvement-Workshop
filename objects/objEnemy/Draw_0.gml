@@ -1,5 +1,5 @@
 /// @description
-draw_self();
+draw_sprite(sprite_index, 0, x + xAdjust, y + yAdjust);
 
 //Draw healthbar
 var x1 = x - sprite_width + 2;

@@ -1,4 +1,4 @@
-/// @description
+/// @description Move
 var prevX = x;
 var prevY = y;
 loops = 0;
