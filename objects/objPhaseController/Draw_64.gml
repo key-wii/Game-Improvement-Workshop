@@ -1,12 +1,13 @@
 /// @description 
 //DEBUG
-draw_set_font(fntDebug);
+draw_set_font(fntPhase);
 draw_set_alpha(1);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
-draw_text(5, room_height - 110, "Phase: " + string(global.phase));
+draw_text(5, 5, "Phase: " + string(global.phase));
 
 
+draw_set_font(fntText);
 draw_set_alpha(alpha);
 draw_set_halign(fa_middle);
 draw_set_valign(fa_center);
@@ -29,7 +30,7 @@ switch(global.phase) {
 	case global.permanence	: draw_text(xx, yy, "PERMANENCE"); break;
 	case global.hitstop		: draw_text(xx, yy, "HITSTOP"); break;
 	case global.explosions	: draw_text(xx, yy, "EXPLOSIONS"); break;
-	case global.moreEnemies2: draw_text(xx, yy, "More Enemies"); break;
+	case global.destructibles: draw_text(xx, yy, "Environment Reactions"); break;
 	case global.animMovement: draw_text(xx, yy, "SHMOOVEMENT"); break;
 	case global.sfx			: draw_text(xx, yy, "Sound Effects"); break;
 	case global.moreBass	: draw_text(xx, yy, "MORE BASS"); break;

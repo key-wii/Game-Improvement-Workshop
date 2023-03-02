@@ -1,10 +1,10 @@
 //Camera
 normal = true;
 cameraX = 0;
-cameraY = 0 - room_height;
+cameraY = 0;
 
 cameraWidth = 1280;
-cameraHeight = 1024;
+cameraHeight = 720;
 
 view_enabled = true;
 view_visible[0] = true;
