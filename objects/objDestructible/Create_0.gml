@@ -1,5 +1,5 @@
 /// @description 
-destroyself = true;
+destructible = true;
 if (global.phase < global.destructibles) instance_destroy();
 hp = 1;
 max_hp = hp;

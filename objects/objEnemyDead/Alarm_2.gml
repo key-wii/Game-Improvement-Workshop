@@ -16,4 +16,6 @@ if (image_angle != -90) {
 		image_angle -= 15;
 	}
 	alarm_set(2, 1);
+} else {
+	image_alpha = .9;
 }

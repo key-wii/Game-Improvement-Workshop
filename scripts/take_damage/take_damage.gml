@@ -7,6 +7,10 @@ function take_damage() {
 			room_speed = 5;
 			with (objRoomController) alarm_set(0, 1);
 		}
+		if (destructible) {
+			instance_create_layer(x, y, "Player_Above", objExplosion);
+			instance_create_layer(x, y, "Destructible", objDestructibleDead);
+		}
 		instance_destroy();
 	};
 }

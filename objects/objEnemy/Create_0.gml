@@ -1,4 +1,5 @@
 /// @description 
+destructible = false;
 if (global.phase >= global.lessHp) hp = 2;
 else hp = 10;
 max_hp = hp;
