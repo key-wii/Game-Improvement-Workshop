@@ -1,4 +1,6 @@
 /// @description 
+window_set_cursor(cr_none);
+
 global.phase = 1;
 global.lessHp = 2;
 global.enemiesMove = 3;
