@@ -2,6 +2,7 @@
 hp--;
 if (hp <= 0) {
 	ssSudden(6, 0, false, false);
+	if (global.phase >= global.sfx) sound_play(sndHurt);
 	with (other) {
 		if (global.phase >= global.animHit) instance_change(objPlayerHurt, true);
 		if (global.phase >= global.knockback) {

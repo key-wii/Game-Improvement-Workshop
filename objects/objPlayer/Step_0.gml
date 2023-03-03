@@ -8,6 +8,7 @@ if (keyboard_check_pressed(ord("A")) || keyboard_check_pressed(vk_left)) {
 		sprite_index = sprL;
 		alarm_set(0, normalizeSpr);
 	}
+	if (global.phase >= global.sfx) sound_play(sndMove);
 }
 if (keyboard_check_pressed(ord("D")) || keyboard_check_pressed(vk_right)) {
 	x += 150;
@@ -17,6 +18,7 @@ if (keyboard_check_pressed(ord("D")) || keyboard_check_pressed(vk_right)) {
 		sprite_index = sprR;
 		alarm_set(0, normalizeSpr);
 	}
+	if (global.phase >= global.sfx) sound_play(sndMove);
 }
 if (keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up)) {
 	y -= 150;
@@ -26,6 +28,7 @@ if (keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up)) {
 		sprite_index = sprU;
 		alarm_set(0, normalizeSpr);
 	}
+	if (global.phase >= global.sfx) sound_play(sndMove);
 }
 if (keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down)) {
 	y += 150;
@@ -35,6 +38,7 @@ if (keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down)) {
 		sprite_index = sprD;
 		alarm_set(0, normalizeSpr);
 	}
+	if (global.phase >= global.sfx) sound_play(sndMove);
 }
 var tile = instance_nearest(x, y, objTileCenterPlayer);
 x = tile.x;

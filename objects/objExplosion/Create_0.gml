@@ -11,3 +11,5 @@ image_yscale = 1.33;
 image_speed = 0;
 
 hitAlready = ds_list_create();
+
+if (global.phase >= global.moreBass) sound_play(sndVineBoom);

@@ -18,3 +18,5 @@ while (x == prevX) {
 }
 
 alarm_set(0, 50 + random(70));
+
+if (global.phase >= global.sfx) sound_play(sndMoveE);

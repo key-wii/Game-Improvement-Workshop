@@ -7,6 +7,7 @@ if (hp <= 0) {
 		room_speed = 20;
 		with (objRoomController) alarm_set(0, 1);
 	}
+	if (global.phase >= global.sfx) sound_play(sndHit);
 	with (other) {
 		take_damage();
 		if (global.phase >= global.animHit) {

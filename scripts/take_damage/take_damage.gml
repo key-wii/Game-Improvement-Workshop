@@ -11,6 +11,7 @@ function take_damage() {
 			instance_create_layer(x, y, "Player_Above", objExplosion);
 			instance_create_layer(x, y, "Destructible", objDestructibleDead);
 		}
+		else if (global.phase >= global.sfx) sound_play(sndDead);
 		instance_destroy();
 	};
 }
