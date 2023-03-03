@@ -34,7 +34,7 @@ switch(global.phase) {
 	case global.animMovement: draw_text(xx, yy, "SHMOOVEMENT"); break;
 	case global.sfx			: draw_text(xx, yy, "Sound Effects"); break;
 	case global.moreBass	: draw_text(xx, yy, "MORE BASS"); break;
-	case global.subjective	: draw_text(xx, yy, "Subjective Stuff"); break;
+	case global.subjective	: draw_text(xx, yy, "Make it yours"); break;
 }
 
 draw_set_alpha(1);

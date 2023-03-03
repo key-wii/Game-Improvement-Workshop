@@ -15,3 +15,12 @@ sprL = sprPlayerL;
 sprR = sprPlayerR;
 sprU = sprPlayerU;
 sprD = sprPlayerD;
+
+if (global.phase >= global.subjective) {
+	sprIdle = sprRat3;
+	sprL = sprRat3;
+	sprR = sprRat3;
+	sprU = sprRat3;
+	sprD = sprRat3;
+	sprite_index = sprIdle;
+}

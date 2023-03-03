@@ -1,4 +1,6 @@
 /// @description 
+sprite_index = sprIdle;
+
 bull_x = x + sprite_width / 2 + 70;
 bull_y = y - sprite_height / 2;
 
