@@ -8,4 +8,4 @@ else xAdjust = 0;
 yAdjust = 0;
 alarm_set(3, 2);
 
-alarm_set(1, 20 + irandom(200));
+alarm_set(6, 2);

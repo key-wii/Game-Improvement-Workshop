@@ -1,5 +1,5 @@
 /// @description 
-bull_x = x + sprite_width / 2;
+bull_x = x + sprite_width / 2 + 70;
 bull_y = y - sprite_height / 2;
 
 if (global.phase >= global.kickback) xAdjust = -12;
