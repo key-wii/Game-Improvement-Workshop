@@ -1,13 +1,13 @@
 /// @description 
 var reset = false;
 if (keyboard_check_pressed(ord("E")) || keyboard_check_pressed(vk_enter)) {
-	if (global.phase < 20) global.phase++;
+	if (global.phase < 21) global.phase++;
 	else global.phase = 1;
 	reset = true;
 }
 if (keyboard_check_pressed(ord("Q")) || keyboard_check_pressed(vk_shift)) {
 	if (global.phase > 1) global.phase--;
-	else global.phase = 20;
+	else global.phase = 21;
 	reset = true;
 }
 

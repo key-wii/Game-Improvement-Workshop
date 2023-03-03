@@ -21,5 +21,6 @@ global.destructibles = 17;
 global.animMovement = 18;
 global.sfx = 19;
 global.moreBass = 20;
+global.subjective = 21;
 	
 room_goto_next();
